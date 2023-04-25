@@ -1,0 +1,112 @@
+body{
+    background-color: #eee;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/12/03/11/leaves-3392340_1280.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover; 
+}
+.barra ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #eee;
+    left: 0;
+}
+.barra li{
+    float: left;
+    text-transform: capitalize;
+    font-family: arial;
+    margin-left: 200px;
+    background-color: rgb(110, 6, 179);
+    border-radius: 4px;
+}
+.barra li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.barra li:hover {
+    background-color: rgb(77, 0, 128);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    background-color: rgb(124, 6, 179);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    text-transform: capitalize;
+    padding: 25px;
+    border-radius: 8px;
+}
+.contenido1{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    margin-top: 20px;
+    text-align: left;
+    font-family: arial;
+}
+h2{
+    text-transform: capitalize;
+    font-family: arial;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.contenido2{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    margin-top: 20px;
+    text-align: left;
+    font-family: arial;
+}
+.eventos{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    margin-top: 20px;
+    text-align: left;
+    font-family: arial;
+}
+table{
+    color: black;
+    width: 100%;
+    background-color: white;
+    font-family: arial;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th{
+    background-color: rgb(119, 42, 171);
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-left: 20px;
+}
+td{
+    border: 1px solid #ddd;
+    margin-left: 20px
+}
